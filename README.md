@@ -1,13 +1,13 @@
 # **AI Chatbot**
 
 ## Project Description
-This is a simple AI chatbot built using Python, LangChain, and Chainlit. The chatbot is powered by the GPT-2 model, which is exposed through the Hugging Face framework. Currently, the chatbot processes user queries without maintaining chat history, making it a stateless conversational agent. Future improvements include adding context management to enhance conversation flow and user experience.
+This is a simple AI chatbot built using Python, LangChain, and Chainlit. The chatbot is powered by the Phi-3-Mini-4K-Instruct model, which is exposed through the Hugging Face framework. Currently, the chatbot processes user queries without maintaining chat history, making it a stateless conversational agent. Future improvements include adding context management to enhance conversation flow and user experience.
 
 
 ## Tech Stack
 - Backend: Python, LangChain
 - Frontend: Chainlit
-- AI Model: GPT-2 via Hugging Face
+- AI Model: Phi-3-Mini-4K-Instruct via Hugging Face
 
 
 ## Getting Started
@@ -47,6 +47,14 @@ Planned enhancements include:
 - Adding chat history to provide contextual responses.  
 - Improving the chatbot's response accuracy with RAG.  
 - Deploying the chatbot as a web service.  
+
+
+## Acknowledgements
+1. Model used: [Phi-3-Mini-4K-Instruct](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct)
+2. Learning and Reference resources
+   - [Langchain](https://api.python.langchain.com/en/latest/langchain_api_reference.html)
+   - [ChatHuggingFace](https://python.langchain.com/api_reference/huggingface/chat_models/langchain_huggingface.chat_models.huggingface.ChatHuggingFace.html)
+   - [Chainlit](https://docs.chainlit.io/get-started/overview)
 
 
 ## Contact  
