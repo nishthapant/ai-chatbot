@@ -10,8 +10,6 @@ This is a simple AI chatbot built using Python, LangChain, and Chainlit. The cha
 - Frontend: Chainlit
 - AI Model: GPT-2 via Hugging Face
 
----
-
 ## Getting Started
 Follow the steps below to install dependencies and run the chatbot.
 
@@ -20,8 +18,6 @@ Make sure you have the following installed on your system:
 - Python 3.x
 - Pip (Python package manager)
 - Git (optional, for version control)
-
----
 
 ### Installation
 
@@ -36,7 +32,6 @@ Make sure you have the following installed on your system:
    ```bash
    python3 install_dependencies.py
    ```
----
 
 ### Run the chatbot
 
@@ -48,16 +43,12 @@ python3 run.py
 
 The chatbot will start and you can interact with it through the provided Chainlit interface.
 
----
-
 ## Future Improvements
 
 Planned enhancements include:  
 - Adding chat history to provide contextual responses.  
 - Improving the chatbot's response accuracy with RAG.  
 - Deploying the chatbot as a web service.  
-
----
 
 ## Contact  
 
