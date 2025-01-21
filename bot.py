@@ -27,10 +27,7 @@ chat = ChatHuggingFace(llm=llm, verbose=True)
 4. Invoke chat, send user prompt, get a response and send it to UI
 """
 
-START_STATEMENT = """
-Hello! I am a helpful AI assistant. How can I assist you today?
-NOTE: This session will end after 30 second of inactivity.
-"""
+START_STATEMENT = "Hello! I am a helpful AI assistant. How can I assist you today?"
 EXIT_STATEMENT = "The session has ended due to inactivity. New session created."
 
 @cl.on_chat_start
@@ -41,13 +38,6 @@ async def handle_chat_start():
     cl.user_session.set("chat_history", [system_prompt])
 
     await cl.Message(content=START_STATEMENT).send()
-# ========================================================
-# OPTIONAL
-# @cl.on_chat_end
-# async def handle_chat_end():
-#     cl.user_session.clear()
-#     await cl.Message(content=EXIT_STATEMENT).send()
-# ========================================================
 
 @cl.on_message
 async def handle_user_prompt(message: cl.Message):
