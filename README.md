@@ -1,21 +1,21 @@
 # **AI Chatbot**
 
-## **Project Description**
+## Project Description
 This is a simple AI chatbot built using Python, LangChain, and Chainlit. The chatbot is powered by the GPT-2 model, which is exposed through the Hugging Face framework. Currently, the chatbot processes user queries without maintaining chat history, making it a stateless conversational agent. Future improvements include adding context management to enhance conversation flow and user experience.
 
 ---
 
-## **Tech Stack**
+## Tech Stack
 - Backend: Python, LangChain
 - Frontend: Chainlit
 - AI Model: GPT-2 via Hugging Face
 
 ---
 
-## **Getting Started**
+## Getting Started
 Follow the steps below to install dependencies and run the chatbot.
 
-### **Prerequisites**
+### Prerequisites
 Make sure you have the following installed on your system:
 - Python 3.x
 - Pip (Python package manager)
@@ -23,15 +23,15 @@ Make sure you have the following installed on your system:
 
 ---
 
-### **Installation**
+### Installation
 
-1. **Clone the repository:**  
+1. Clone the repository:  
    ```bash
    git clone https://github.com/your-username/ai-chatbot.git
    cd ai-chatbot
    ```
 
-2. **Install dependencies:**  
+2. Install dependencies:  
    Run the following command to install all necessary dependencies:  
    ```bash
    python3 install_dependencies.py
@@ -50,7 +50,7 @@ The chatbot will start and you can interact with it through the provided Chainli
 
 ---
 
-## **Future Improvements**
+## Future Improvements
 
 Planned enhancements include:  
 - Adding chat history to provide contextual responses.  
@@ -59,8 +59,7 @@ Planned enhancements include:
 
 ---
 
-## **Contact**  
+## Contact  
 
 For questions or suggestions, feel free to reach out to:
-Nishtha Pant
-📧 nishthapant2024@gmail.com
+Nishtha Pant via nishthapant2024@gmail.com
