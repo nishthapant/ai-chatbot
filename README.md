@@ -8,6 +8,7 @@ This is a simple AI chatbot built using Python, LangChain, and Chainlit. The cha
 - Backend: Python, LangChain
 - Frontend: Chainlit
 - AI Model: Phi-3-Mini-4K-Instruct via Hugging Face
+   - Connecting Langchain and Huggingface: [ChatHuggingface class](https://python.langchain.com/api_reference/huggingface/chat_models/langchain_huggingface.chat_models.huggingface.ChatHuggingFace.html)
 
 
 ## Getting Started
